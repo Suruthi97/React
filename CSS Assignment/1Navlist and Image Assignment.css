@@ -1,0 +1,31 @@
+*{
+    background-color: #bdbdbd;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 20px;
+    width: 240px;
+    margin-left: -25px;
+    background-color: #757575;
+}
+.classdiv1{
+    position: relative;
+}
+.classdiv{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 290px;
+}
+#idimg{
+    width: 700px;
+    height: 300px;
+    padding-left: 115px;
+
+}
+#idhr{
+    width: 900px;
+    margin-left: -35px;
+}

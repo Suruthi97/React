@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.classform{
+    border-left: 10px solid #434242;
+    border-right: 10px solid #434242;
+    border-top:5px solid #434242;
+    border-bottom:5px solid #434242;
+    margin-right: 470px;
+    border-radius: 20px;
+}
+.classtable{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.data1{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.data2{
+    width: 30px;
+    border-radius: 5px;
+    text-align: right;
+}
+.data3{
+    width: 150px;
+    font-style: italic;
+}
+.data4{
+    width: 90px;
+    height: 30px;
+    color: #ffff;
+    background: #993b21;
+    border-radius: 20px;
+    text-align: center;
+}
+.data5{
+    font-weight: bolder;
+    color: #ad5710;
+}
+.data6{
+    padding-left: 350px;
+    text-align: right;
+}
+#idline{
+    width: 600px;
+    margin-left: 30px;
+}

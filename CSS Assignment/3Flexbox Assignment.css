@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+.classdiv{
+    width: 240px;
+    height: 300px;
+    border-left: 1px solid #bdbdbd;
+    border-right: 1px solid #bdbdbd;
+    border-top: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+    margin: auto;
+    margin-top: 100px;
+    overflow: auto;
+    border-radius: 5px;
+}
+#idimg{
+    width: 100%;
+}
+.box{
+    padding-left: 10px;
+    color: #757575;
+    font-family: sans-serif;
+}
