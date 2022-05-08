@@ -1,0 +1,21 @@
+.classbody{
+    width: 300px;   
+    background-color: #808080;
+    border-top: 20px solid #808080;
+    border-bottom: 50px solid #808080;
+    border-left: 50px solid #808080;
+    border-right: 50px solid #808080;
+}
+.classdiv{
+    text-align: center;
+    width: 300px;
+    background-color: #808080;
+    border-top: 1px solid #ffff;
+    border-bottom: 1px solid #ffff;
+    border-left: 1px solid #ffff;
+    border-right: 1px solid #ffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 15px;
+}

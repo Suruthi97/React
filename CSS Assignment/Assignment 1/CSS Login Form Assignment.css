@@ -1,0 +1,20 @@
+.classtable{
+    width: 400px;
+    border-top: 10px solid #16b4b2;
+    border-bottom: 50px solid #16b4b2;
+    border-left: 50px solid #16b4b2;
+    border-right: 50px solid #16b4b2;
+    padding-top:15px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+    text-align: left;
+    font-size:15px;
+    background-color: #ec664e;
+    margin-left: 400px;
+}
+.data{
+    background: #016ABC;
+    color: #fff;
+    border-radius: 5px;
+}

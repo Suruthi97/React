@@ -1,0 +1,23 @@
+.classbody{
+    width: 350px;
+    height: 420px;
+    border-top: 10px solid #c827ec;
+    border-bottom: 10px solid #c827ec;
+    border-left: 200px solid #c827ec;
+    border-right: 200px solid #c827ec;
+    padding-top:15px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+    text-align: left;
+    font-size:20px;
+    background-color: #0999fa;
+}
+#head{
+    text-align: center;
+}
+#line{
+    width: 200px;
+    height: 8px;
+    border-bottom: 2px solid #e4dce3;
+}
