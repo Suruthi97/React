@@ -6,11 +6,16 @@ function Anagram(){
     var bool = true;
     var ascendingOrder = out.sort();
     var ascendingOrder1 = out1.sort();
-    if(ascendingOrder == ascendingOrder1){
-        document.write("Anagram? ",bool);
+    for(var i=0; i<ascendingOrder.length; i++){
+        for(i=0; i<ascendingOrder1.length; i++){
+            if(ascendingOrder[i] == ascendingOrder1[i]){
+                bool=true;
+            }
+            else{
+                bool=false;
+                break;
+            }
+        }
     }
-    else{
-        bool = false;
-        document.write("Anagram? ",bool);
-    }
+    document.write("Anagram? ",bool);
 }
