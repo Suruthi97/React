@@ -8,6 +8,5 @@ function High(){
                 count = count+1;
             }
         }
-        console.log()
     }
 }

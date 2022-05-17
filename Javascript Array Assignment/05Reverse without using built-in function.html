@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            Program to Print the given array in reverse format without using built in function
+        </title>
+    </head>
+    <body>
+        <h1>Print the given array in reverse format without using built in function</h1>
+    </body>
+    <script>
+        var ip = [33,44,11,33,44,555,11,11,45];
+        var i = 0;
+        var j = ip.length-1;
+        document.write("Array elements before reverse are:")
+        ip.forEach(function(input) {
+            document.write("<br/>", input);
+        });
+        document.write("<br/>Array elements after reverse are:")
+        while(i<j){
+            var temp = ip[i];
+            ip[i] = ip[j];
+            ip[j] = temp;
+            i++;
+            j--;
+        }
+        document.write("<br/>", ip);
+    </script>
+</html>
