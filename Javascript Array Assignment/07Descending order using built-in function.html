@@ -1,24 +1,27 @@
 <html>
-    <head>
-        <title>
-            Program to Print the given array in descending order using built in function
-        </title>
-    </head>
-    <body>
-        <h1>Print the given array in descending order using built in function</h1>
-    </body>
-    <script>
-        var ip = [33,44,11,33,44,555,11,11,45];
-        document.write("Array elements before sorting are:");
-        ip.forEach(function(input) {
-            document.write("<br/>", input);
-        });
-        var op = ip.sort(function(a,b){
-         return b-a;
-        });
-        document.write("<br/>Array elements after descending sort are:");
-        op.forEach(function(input) {
-            document.write("<br/>", input);
-        });
-    </script>
+
+<head>
+    <title>
+        Program to Print the given array in descending order using built in function
+    </title>
+</head>
+
+<body>
+    <h1>Print the given array in descending order using built in function</h1>
+</body>
+<script>
+    var ip = [33, 44, 11, 33, 44, 555, 11, 11, 45];
+    document.write("Array elements before sorting are:");
+    ip.forEach(function (input) {
+        document.write("<br/>", input);
+    });
+    var op = ip.sort(function (a, b) {
+        return b - a;
+    });
+    document.write("<br/>Array elements after descending sort are:");
+    op.forEach(function (input) {
+        document.write("<br/>", input);
+    });
+</script>
+
 </html>

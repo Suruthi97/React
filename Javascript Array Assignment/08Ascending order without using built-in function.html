@@ -1,40 +1,43 @@
 <html>
-    <head>
-        <title>
-            Program to Print the given array in ascending order without using built in function
-        </title>
-    </head>
-    <body>
-        <h1>Print the given array in ascending order without using built in function</h1>
-    </body>
-    <script>
-        var ip = [33,44,11,33,44,555,11,11,45];
-        var temp;
-        document.write("Array elements before sort are:");
-        ip.forEach(function(input) {
-            document.write("<br/>", input);
-        });
-        document.write("<br/>Array elements after ascending sort are:");
-        for(var i=0;i<ip.length; i++){
-            for(var j=i+1; j<ip.length; j++){
-                if(ip[i]>ip[j]){
-                    temp = ip[i];
-                    ip[i] = ip[j];
-                    ip[j] = temp;
-                }
+
+<head>
+    <title>
+        Program to Print the given array in ascending order without using built in function
+    </title>
+</head>
+
+<body>
+    <h1>Print the given array in ascending order without using built in function</h1>
+</body>
+<script>
+    var ip = [33, 44, 11, 33, 44, 555, 11, 11, 45];
+    var temp;
+    document.write("Array elements before sort are:");
+    ip.forEach(function (input) {
+        document.write("<br/>", input);
+    });
+    document.write("<br/>Array elements after ascending sort are:");
+    for (var i = 0; i < ip.length; i++) {
+        for (var j = i + 1; j < ip.length; j++) {
+            if (ip[i] > ip[j]) {
+                temp = ip[i];
+                ip[i] = ip[j];
+                ip[j] = temp;
             }
         }
-        document.write("<br/>", ip);
-        document.write("<br/>Array elements after descending sort are:");
-        for(var i=0;i<ip.length; i++){
-            for(var j=i+1; j<ip.length; j++){
-                if(ip[i]<ip[j]){
-                    temp = ip[i];
-                    ip[i] = ip[j];
-                    ip[j] = temp;
-                }
+    }
+    document.write("<br/>", ip);
+    document.write("<br/>Array elements after descending sort are:");
+    for (var i = 0; i < ip.length; i++) {
+        for (var j = i + 1; j < ip.length; j++) {
+            if (ip[i] < ip[j]) {
+                temp = ip[i];
+                ip[i] = ip[j];
+                ip[j] = temp;
             }
         }
-        document.write("<br/>", ip);
-    </script>
+    }
+    document.write("<br/>", ip);
+</script>
+
 </html>
