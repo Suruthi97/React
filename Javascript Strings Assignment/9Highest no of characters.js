@@ -1,12 +1,23 @@
 function High(){
     var str = document.getElementById("input").value;
-    var out = str.toLowerCase().split('');
-    var count = 0;
-    for(var i=0; i<out.length; i++){
-        for(var j=0; j<out.length; j++){
-            if(out[i] == out[j+1]){
-                count = count+1;
+    var ip = str.toLowerCase().split('').sort();
+    var maxcount=0, out;
+    var count = 1;
+    var len=ip.length;
+    for(var i=1; i<=len; i++){
+        if ((i == len) || (ip[i] != ip[i - 1]))
+        {
+            if (maxcount < count)
+            {
+                maxcount = count;
+                out = ip[i - 1];
             }
+            count = 1;
+        }
+        else
+        {
+            count++;
         }
     }
+    document.write("Maximum occurring character is :", out);
 }
