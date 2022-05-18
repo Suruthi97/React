@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>
+        Program to Find the palindrome number in the given array
+    </title>
+</head>
+
+<body>
+    <h1>Find the palindrome number in the given array</h1>
+</body>
+<script>
+    var array = [22, 3, 4, 21, 45, 77, 34];
+    for (var i = 0; i < array.length; i++) {
+        var out = array[i];
+        var res = out.toString().split('').reverse().join('');
+        var bool = true;
+        if (res == array[i]) {
+            document.write("<br/>", array[i]);
+        }
+        else {
+            bool = false;
+        }
+        bool = true;
+    }
+</script>
+
+</html>

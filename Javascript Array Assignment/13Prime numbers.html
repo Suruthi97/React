@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>
+        Program to find the prime number in the given array
+    </title>
+</head>
+
+<body>
+    <h1>Find the prime number in the given array</h1>
+</body>
+<script>
+    var array = [2, 3, 4, 5, 6, 7, 8, 9, 11];
+    var prime = true;
+    for (var i = 0; i < array.length; i++) {
+        if (array[i] == 1) {
+            prime = false;
+        }
+        else if (array[i] > 1) {
+            for (var j = 2; j < array[i]; j++) {
+                if (array[i] % j == 0) {
+                    prime = false;
+                }
+            }
+        }
+        if (prime == true) {
+            document.write("<br/>", array[i]);
+        }
+        prime = true;
+    }
+</script>
+
+</html>

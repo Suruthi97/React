@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>
+        Program to find the sub array with sequence of number which is less than zero
+    </title>
+</head>
+
+<body>
+    <h1>Find the sub array with sequence of number which is less than zero</h1>
+</body>
+<script>
+    var array = [2,3,4,5,6,0,2,2,3,-1,4,5,3];
+    var j = array.length;
+    for(var i=0; i<j; i++){
+        if(array[i]<=0){
+            var array1 = array.slice(0,i);
+            console.log(array1);
+            array = array.slice(i+1,j);
+            j = array.length;
+            i = 0;
+        }
+    }
+</script>
+
+</html>

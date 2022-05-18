@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>
+        Program to Find the armstrong number in the given array
+    </title>
+</head>
+
+<body>
+    <h1>Find the armstrong number in the given array</h1>
+</body>
+<script>
+    var array = [221, 453, 153, 3434, 1634];
+    var sum = 0, rem, out;
+    for (var i = 0; i < array.length; i++) {
+        out = array[i];
+        if(array[i].toString().length == 3){
+            while (out > 0) {
+            rem = out % 10;
+            sum = sum + (rem * rem * rem);
+            out = parseInt(out / 10);
+        }
+        if (sum == array[i]) {
+            document.write("<br/>", array[i]);
+        }
+        sum = 0
+        }
+        else if(array[i].toString().length == 4){
+            while (out > 0) {
+            rem = out % 10;
+            sum = sum + (rem * rem * rem * rem);
+            out = parseInt(out / 10);
+        }
+        if (sum == array[i]) {
+            document.write("<br/>", array[i]);
+        }
+        sum = 0
+        }
+    }
+</script>
+
+</html>
