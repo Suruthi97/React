@@ -7,15 +7,20 @@
 </head>
 
 <body>
-    <h1>Convert the given number = 34531 and string= "salman" into array </h1>
+    <h1>Convert the given number = 34531 and string = "salman" into array </h1>
 </body>
 <script>
     var num = 34531;
-    var string = "salman";
-    var arr = num.toString().split('');
-    for (var i = 0; i <arr.length ; i++) {
-        
+    num1 = num.toString();
+    len = num1.length;
+    var arr2 = [];
+    for (var i = 0; i < len; i++) {
+        arr2[i] = parseInt(num1[i]);
     }
+    console.log(arr2);
+    var string = "salman";
+    var arr = string.toString().split("");
+    console.log(arr);
 </script>
 
 </html>
